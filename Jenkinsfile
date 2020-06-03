@@ -4,7 +4,6 @@
             stage('Test') {
                 steps {
                     echo 'Hello World!'
-                    error 'Force fail'
                 }
             }
         }
